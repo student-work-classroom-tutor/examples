@@ -1,18 +1,17 @@
-# PyTorch Examples
+# PyTorch 예제
 
 ![Run Examples](https://github.com/pytorch/examples/workflows/Run%20Examples/badge.svg)
 
 https://pytorch.org/examples/
 
-`pytorch/examples` is a repository showcasing examples of using [PyTorch](https://github.com/pytorch/pytorch). The goal is to have curated, short, few/no dependencies _high quality_ examples that are substantially different from each other that can be emulated in your existing work.
+`pytorch/examples` [PyTorch](https://github.com/pytorch/pytorch)사용 예를 보여주는 저장소입니다. 목표는 기존 작업에서 모방할 수 있는, 서로 실질적으로 다르고, 짧고, 종속성이 적거나 없는 _높은 품질_의 사례를 정리하는 것입니다.
+- 튜토리얼을 위해: https://github.com/pytorch/tutorials
+- pytorch.org의 변경 사항: https://github.com/pytorch/pytorch.github.io
+- 일반 모델 허브의 경우: https://pytorch.org/hub/ or https://huggingface.co/models
+- 프로덕션에서 PyTorch를 실행하는 방법에 대한 레시피: https://github.com/facebookresearch/recipes
+- 일반적인 Q&A 및 지원: https://discuss.pytorch.org/
 
-- For tutorials: https://github.com/pytorch/tutorials
-- For changes to pytorch.org: https://github.com/pytorch/pytorch.github.io
-- For a general model hub: https://pytorch.org/hub/ or https://huggingface.co/models
-- For recipes on how to run PyTorch in production: https://github.com/facebookresearch/recipes
-- For general Q&A and support: https://discuss.pytorch.org/
-
-## Available models
+## 사용 가능한 모델
 
 - [Image classification (MNIST) using Convnets](./mnist/README.md)
 - [Word-level Language Modeling using RNN and Transformer](./word_language_model/README.md)
@@ -34,10 +33,7 @@ https://pytorch.org/examples/
 
 
 
-Additionally, a list of good examples hosted in their own repositories:
+또한, 자체 저장소에 호스팅된 좋은 예 목록:
 
 - [Neural Machine Translation using sequence-to-sequence RNN with attention (OpenNMT)](https://github.com/OpenNMT/OpenNMT-py)
 
-## Contributing
-
-If you'd like to contribute your own example or fix a bug please make sure to take a look at [CONTRIBUTING.md](CONTRIBUTING.md).
